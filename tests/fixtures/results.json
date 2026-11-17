@@ -1,0 +1,622 @@
+{
+ "schema": 1,
+ "status": "complete",
+ "answers": [
+  {
+   "id": "A1",
+   "answer": "B",
+   "letters": [
+    "B",
+    "E"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "A2",
+   "answer": "F",
+   "letters": [
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "A4",
+   "answer": "B",
+   "letters": [
+    "B",
+    "E"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "A5",
+   "answer": "F",
+   "letters": [
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "A6",
+   "answer": "E",
+   "letters": [
+    "E"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "A7",
+   "answer": "C",
+   "letters": [
+    "C",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "A8",
+   "answer": "A",
+   "letters": [
+    "A",
+    "B",
+    "C"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "A9",
+   "answer": "A",
+   "letters": [
+    "A",
+    "B",
+    "E"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "A11",
+   "answer": "B",
+   "letters": [
+    "B",
+    "D",
+    "E",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "A12",
+   "answer": "A",
+   "letters": [
+    "A",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "A14",
+   "answer": "F",
+   "letters": [
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "B1",
+   "answer": "A",
+   "letters": [
+    "A",
+    "B",
+    "E",
+    "C"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "B2",
+   "answer": "A",
+   "letters": [
+    "A",
+    "C",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "B7",
+   "answer": "A",
+   "letters": [
+    "A",
+    "B",
+    "C",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "B8",
+   "answer": "E",
+   "letters": [
+    "E",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "B10",
+   "answer": "A",
+   "letters": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "B12",
+   "answer": "C",
+   "letters": [
+    "C",
+    "D",
+    "A",
+    "B"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "B17",
+   "answer": "B",
+   "letters": [
+    "B",
+    "E",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "B18",
+   "answer": "A",
+   "letters": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "B19",
+   "answer": "B",
+   "letters": [
+    "B",
+    "D",
+    "E"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "C1",
+   "answer": "B",
+   "letters": [
+    "B"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "C2",
+   "answer": "A",
+   "letters": [
+    "A"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "C3",
+   "answer": "D",
+   "letters": [
+    "D",
+    "E"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "C4",
+   "answer": "B",
+   "letters": [
+    "B",
+    "C",
+    "E",
+    "A"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "C5",
+   "answer": "D",
+   "letters": [
+    "D",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "C6",
+   "answer": "A",
+   "letters": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "C8",
+   "answer": "A",
+   "letters": [
+    "A",
+    "B",
+    "D",
+    "E"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "C10",
+   "answer": "A",
+   "letters": [
+    "A",
+    "B",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "D1",
+   "answer": "A",
+   "letters": [
+    "A",
+    "B",
+    "C",
+    "E",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "D5",
+   "answer": "A",
+   "letters": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "D6",
+   "answer": "B",
+   "letters": [
+    "B",
+    "D",
+    "E"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "D7",
+   "answer": "E",
+   "letters": [
+    "E",
+    "G"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "D9",
+   "answer": "A",
+   "letters": [
+    "A",
+    "B"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "E5",
+   "answer": "A",
+   "letters": [
+    "A",
+    "C",
+    "D"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "E6",
+   "answer": "A",
+   "letters": [
+    "A",
+    "C"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "E7",
+   "answer": "F",
+   "letters": [
+    "F",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "E12",
+   "answer": "A",
+   "letters": [
+    "A",
+    "C",
+    "F"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "E15",
+   "answer": "A",
+   "letters": [
+    "A"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "E17",
+   "answer": "B",
+   "letters": [
+    "B",
+    "C",
+    "D"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "E18",
+   "answer": "B",
+   "letters": [
+    "B",
+    "C",
+    "E"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "E20",
+   "answer": "D",
+   "letters": [
+    "D"
+   ],
+   "status": "answered"
+  },
+  {
+   "id": "A3",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "A10",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "A13",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "A15",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "A16",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "B3",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "B4",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "B5",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "B6",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "B9",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "B11",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "B13",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "B14",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "B15",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "B16",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "B20",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "C7",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "C9",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "D2",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "D3",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "D4",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "D8",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "D10",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "E1",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "E2",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "E3",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "E4",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "E8",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "E9",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "E10",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "E11",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "E13",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "E14",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "E16",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  },
+  {
+   "id": "E19",
+   "answer": null,
+   "letters": [],
+   "status": "not_asked"
+  }
+ ]
+}

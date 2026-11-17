@@ -1,0 +1,8 @@
+{
+  "name": "daily-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily Ledger: phone-first, private, offline motivation PWA. No dependencies, no build step.",
+  "scripts": { "test": "node tests/engine.test.js" }
+}

@@ -1,0 +1,128 @@
+[
+ {
+  "n": 1,
+  "name": "Works offline after first visit; installable; manifest valid",
+  "pass": true,
+  "detail": "SW controls page, offline reload renders, 0 installability errors (ignoring the harness-only in-incognito flag), 0 manifest errors"
+ },
+ {
+  "n": 2,
+  "name": "Zero network requests after load",
+  "pass": true,
+  "detail": "0 app requests during use (server log + page events); 0 cross-origin; CSP connect-src self; browser-initiated sw.js revalidations seen: 0"
+ },
+ {
+  "n": 3,
+  "name": "One-tap check-in; quick loop < 20s; full loop < 60s",
+  "pass": true,
+  "detail": "1 tap per habit; quick loop = 3 taps, app responds in 53ms total (Playwright-scripted incl. waits: 5278ms); full loop = 5 taps (scripted 5829ms); single tap 56ms"
+ },
+ {
+  "n": 4,
+  "name": "Data persists across reloads; persist() requested",
+  "pass": true,
+  "detail": "persist() called after first check-in; state survives reload"
+ },
+ {
+  "n": 5,
+  "name": "Export then Import (replace) on a clean profile reproduces identical data",
+  "pass": true,
+  "detail": "identical across {\"habits\":3,\"checkins\":11,\"wins\":4,\"reflections\":0,\"settings\":11,\"setback\":0,\"sessions\":1}"
+ },
+ {
+  "n": 6,
+  "name": "Backup banner appears when lastExportAt is over 7 days old",
+  "pass": true,
+  "detail": "hidden at 3d, shown at 8d, once per day, dismissible"
+ },
+ {
+  "n": 7,
+  "name": "config.json import maps every key; invalid files rejected; defaults fill gaps",
+  "pass": true,
+  "detail": "bad JSON + invalid values rejected with reasons; unknown key warned; valid file applied; reset restores profile"
+ },
+ {
+  "n": 8,
+  "name": "Habit cap enforced; starts at 3 and grows only by deliberate action",
+  "pass": true,
+  "detail": "setup caps at 3; Settings add blocked at cap; +1 only via confirm; hard stop at 8"
+ },
+ {
+  "n": 9,
+  "name": "Never-miss-twice shows minVersion after exactly one missed day; completion counts as a full vote",
+  "pass": true,
+  "detail": "offer at 1 gap day; tiny = full vote (+1 day); no offer with no gap"
+ },
+ {
+  "n": 10,
+  "name": "Setback after configured missed days; shows what was built; no banned words",
+  "pass": true,
+  "detail": "header leads with built stats + tiny options; chips optional; resolves on return; copy scan clean"
+ },
+ {
+  "n": 11,
+  "name": "Each module toggle fully removes or restores its UI without errors",
+  "pass": true,
+  "detail": "setback + reflect: off removes, on restores, no console errors"
+ },
+ {
+  "n": 12,
+  "name": "Reduced motion disables animation; dark / light / auto work",
+  "pass": true,
+  "detail": "reduced-motion: 0 animated elements, sheet has no animation; auto/light/dark/oled verified"
+ },
+ {
+  "n": 13,
+  "name": "Primary actions in the bottom 40% of 390x844; targets >= 56px",
+  "pass": true,
+  "detail": "rows start at y=587 (limit 506); every button/select/input/tab on all 3 screens >= 56px; 8px gaps; computed text contrast >= 4.5:1 on Today, Vault, Settings and sheets"
+ },
+ {
+  "n": 14,
+  "name": "Wins auto-created from notes; \"Pull a win\" returns a random existing win",
+  "pass": true,
+  "detail": "3 notes -> 3 auto wins; 3/3 distinct wins surfaced by random pulls; empty state explained"
+ },
+ {
+  "n": 15,
+  "name": "Metrics match seeded fake sessions; nothing is transmitted",
+  "pass": true,
+  "detail": "counts, median, last-14 list and flags match seeded data; summary copied locally; 0 requests"
+ },
+ {
+  "n": 16,
+  "name": "node tests/engine.test.js passes",
+  "pass": true,
+  "detail": "56 passed, 0 failed"
+ },
+ {
+  "n": 17,
+  "name": "Gate-derived config matches the ID mapping for a seeded results.json",
+  "pass": true,
+  "detail": "30 keys traced; 2 conflicts listed; multi-letter cases in node tests"
+ },
+ {
+  "n": 18,
+  "name": "Reflect hidden in quick mode; mood 1-2 triggers a vault replay",
+  "pass": true,
+  "detail": "no reflect in quick; rating 2 -> reframe line + lowMood replay of a real win; rating 4 -> none"
+ },
+ {
+  "n": 19,
+  "name": "Each vaultReplay trigger fires only when enabled; weekly once per week; random capped",
+  "pass": true,
+  "detail": "afterMiss/weekly/random each fire only when enabled; weekly once per week; random respects 7-session cap and rng (lowMood: see #18)"
+ },
+ {
+  "n": 20,
+  "name": "Reminder .ics downloads at 20:00 by default; before noon shows a warning",
+  "pass": true,
+  "detail": "20:00 default, single daily VEVENT with alarm, anchor in description, warning before noon"
+ },
+ {
+  "n": 21,
+  "name": "First-run setup: progress bar, resumable, under 5 minutes",
+  "pass": true,
+  "detail": "5 steps with progress bar, pause + resume keeps draft; scripted walkthrough 1s (limit 300s)"
+ }
+]

@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "source": "interview",
+  "locked": [],
+  "theme": {
+    "mode": "auto",
+    "palette": "calm",
+    "contrast": "normal"
+  },
+  "density": "balanced",
+  "textScale": 1,
+  "handedness": "right",
+  "animation": "subtle",
+  "haptics": "milestones",
+  "sound": "off",
+  "tone": "warm",
+  "toneRotation": [
+    "warm",
+    "coach",
+    "dry"
+  ],
+  "noLectures": true,
+  "rewardStyle": {
+    "type": "progress",
+    "timing": "mix",
+    "surpriseRate": 0
+  },
+  "habitCap": 3,
+  "habitCapMax": 8,
+  "loopLength": "choose",
+  "firstScreen": "checklist",
+  "headerLine": "rotate",
+  "streakStyle": "chain",
+  "streakHideable": true,
+  "setbackAfterDays": 3,
+  "vaultReplay": [
+    "manual",
+    "afterMiss",
+    "weekly",
+    "lowMood",
+    "random"
+  ],
+  "modules": {
+    "reflect": true,
+    "setback": true
+  },
+  "reflect": {
+    "mode": "fullOnly",
+    "input": [
+      "chips",
+      "rating",
+      "text",
+      "voice"
+    ]
+  },
+  "dayRolloverHour": 3,
+  "reminder": {
+    "mode": "ics",
+    "time": "20:00"
+  }
+}
